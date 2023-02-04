@@ -77,7 +77,7 @@ char	*ft_strtrim(const char *s, const char *set)
 		ptr = malloc (sizeof(char) * ((i + 1) - j + 1));
 		if (!ptr)
 			return (NULL);
-			index = 0;
+		index = 0;
 		while (j <= i)
 		{
 			ptr[index] = s[j];
